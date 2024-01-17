@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 25px;
+    text-align: center;
+}
+
+.qr-text{
+    padding: 10px 20px;
+    width: 400px;
+    border: 2px solid red;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.generate-qr-code-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.qr-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.error-message-text{
+    font-size: 30px;
+    margin-bottom: 30px;
+}

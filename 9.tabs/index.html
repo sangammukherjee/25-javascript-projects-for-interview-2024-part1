@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Tabs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Custom Tabs</h1>
+    <div class="container">
+      <div class="button-wrapper">
+        <button data-id="home" class="tab-button active">Home</button>
+        <button data-id="services" class="tab-button">Services</button>
+        <button data-id="projects" class="tab-button">Projects</button>
+        <button data-id="portfolio" class="tab-button">Portfolio</button>
+        <button data-id="contact" class="tab-button">Contact</button>
+      </div>
+      <div class="content-wrapper">
+        <p id="home" class="content active">This is the Home Section</p>
+        <p id="services" class="content">This is the Services Section</p>
+        <p id="projects" class="content">This is the Projects Section</p>
+        <p id="portfolio" class="content">This is the Portfolio Section</p>
+        <p id="contact" class="content">This is the Contact Section</p>
+
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

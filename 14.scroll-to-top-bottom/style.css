@@ -1,0 +1,15 @@
+
+
+
+
+.loader{
+    display: none;
+}
+
+.loader.show-loader{
+    display: block;
+}
+
+.users-list.hide-users-list{
+    display: none;
+}

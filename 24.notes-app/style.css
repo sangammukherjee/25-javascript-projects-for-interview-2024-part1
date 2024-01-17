@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 15px;
+    background-color: rgb(79, 0, 216);
+}
+
+h1, p {
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-container button {
+    background-color: #fbff28;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+ul {
+    width: 450px;
+    list-style: none;
+}
+
+ul li {
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 6px 12px;
+    background-color: #f7a604;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+ul li p{
+    font-size: 20px;
+}
+
+ul li button {
+    padding: 10px 15px;
+    background-color: #fbff28;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.deleteBtn {
+    background-color: rgb(198, 0, 228);
+    color: #fff;
+}

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color : #000;
+    --text-color : #fff;
+    --btn-bg-color : #f6ee03;
+    --btn-text-color : #000;
+}
+
+[data-theme = "dark"]{
+    --bg-color : #fff;
+    --text-color : #000; 
+    --btn-bg-color : #000;
+    --btn-text-color : #f6ee03; 
+}
+
+[data-theme = "blue"]{
+    --bg-color : #0430f6;
+    --text-color : #b50c0c; 
+    --btn-bg-color : #7b016f;
+    --btn-text-color : #f6ad03; 
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container .change-theme-btn{
+    background-color: var(--btn-bg-color) ;
+    color: var(--btn-text-color);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/* body.light {
+    background-color: rgba(255, 0, 234, 0.867);
+}
+
+body.dark {
+    background-color: rgb(255, 128, 0);
+} */
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container h1 {
+    color: #fff;
+}
+
+/* .container .change-theme-btn.light {
+    padding: 12px 20px;
+    border: none;
+    background-color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.container .change-theme-btn.dark{
+    color: #000;
+    background-color: #fff;
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+} */

@@ -1,0 +1,15 @@
+
+
+
+
+.loading-text{
+    display: none;
+}
+
+.loading-text.show {
+    display: block;
+}
+
+.github-profile-details.hide {
+    display: none;
+}

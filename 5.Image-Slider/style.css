@@ -1,0 +1,81 @@
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(136, 0, 255);
+    padding: 15px;
+}
+
+h1 {
+    color: rgb(255, 242, 0);
+    margin-bottom: 30px;
+}
+
+.slider {
+    position: relative;
+    max-width: 45rem;
+    height: 25rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+.bottom-container button {
+    padding: 10px 30px;
+    background-color: rgb(255, 242, 0);
+    border: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.dots-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dots-container .dot{
+    width: 40px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.dots-container .dot.active {
+    background-color: #000;
+}
